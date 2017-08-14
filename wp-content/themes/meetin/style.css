@@ -1,0 +1,490 @@
+/*
+Theme name: Meet'in Normandy
+Author: Claire Bourdalé - Arroweb
+Author URI: https://www.arroweb.net
+Description: Thème Meet'in Normandy FR et EN
+Version: 1.0
+*/
+
+
+/**
+ *
+ * 1- GENERALITES
+ * 2- FRONT PAGE
+ * 3- FOOTER
+ * 4- PAGES INTERNES
+ * 5- REGLAGE DU TOGGLE
+ * 6- OFFRES EXCLUSIVES
+ *
+ */
+
+
+/*
+ ***************************************************************************************************
+ */
+
+/**
+ *
+ * 1- GENERALITES
+ *
+ */
+
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif !important;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+/*
+ ***************************************************************************************************
+ */
+
+/**
+ *
+ * 2- FRONT PAGE
+ *
+ */
+
+.front-pimg1, .front-pimg2, .front-pimg3, .front-pimg4, .front-pimg5{
+  position:relative;
+  opacity:0.95;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+@media(max-width:568px){
+
+  .front-section{
+  	padding:20px 20px !important;
+
+  }	
+
+  .front-pimg1, .front-pimg2, .front-pimg3, .front-pimg4 {
+    background-attachment:scroll;
+  }
+
+}
+
+.front-pimg1{
+  /* background-image: cf <style> front-page.php */
+  min-height:100%;
+}
+
+.front-pimg2{
+  /* background-image: cf <style> front-page.php */
+  min-height:400px;
+}
+
+.front-pimg3{
+  /* background-image: cf <style> front-page.php */
+  min-height:400px;
+}
+
+.front-pimg4{
+  /* background-image: cf <style> front-page.php */
+  min-height:400px;
+}
+
+
+.front-section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.front-section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.front-section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.front-section-white{
+  background-color:#ffffff;
+  color:#666;
+}
+
+.front-ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.front-ptext .logo-border img{
+  background-color:#ffffff;
+  opacity: 0.65;
+  color:#fff;
+  padding:20px;
+}
+
+.front-ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.front-ptext .border.trans{
+  background-color:transparent;
+}
+
+.front-ptext-chevron{
+  position:absolute;
+  bottom: 30px;
+  width:100%;
+  text-align:center;
+  color:#ffffff;
+  font-size:27px;
+  opacity: 0.60;
+}
+
+.front-ptext-chevron a{
+  color: #ffffff;
+}
+
+.front-ptext-langue{
+  position:absolute;
+  top: 20px;
+  right: 20px;
+  width:100%;
+  text-align:right;
+  color:#ffffff;
+  font-size:14px;
+  opacity: 0.90;
+}
+
+.front-ptext-langue a{
+   color:#ffffff !important;
+}
+
+.front-btn{
+  color: #fff;
+  background-color: #7EB4DE;
+  border-color: #2e6da4;
+}
+
+.front-logo img{
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/*
+ ***************************************************************************************************
+ */
+
+
+/**
+ *
+ * 3- FOOTER
+ *
+ */
+
+ .footer{
+ 	width: 100%;
+ 	min-height: 300px;
+ 	background-color: #272822;
+ 	color: #ddd;
+
+ }
+
+ .footer .container{
+ 	padding-top: 50px !important;
+ 	padding-bottom: 40px !important;
+ }
+
+ .footer ul{
+ 	list-style-type: none;
+ 	padding-bottom: 15px !important;
+ }
+
+ .footer a{
+ 	color: #ddd;
+ 	text-decoration: none;
+ }
+
+ .footer a:hover{
+ 	color: #D37935 !important;
+ }
+
+ .footer .brown{
+ 	color: #D37935 !important;
+ }
+
+/*
+ ***************************************************************************************************
+ */
+
+
+/**
+ *
+ * 4- PAGES INTERNES
+ *
+ */
+
+body .interne{
+  padding-top: 70px;
+}
+
+.navbar-brand {
+
+  height: 50px;
+  padding-top: 7px !important;
+
+}
+
+.agence a{
+	font-style: italic;
+	color: #4795d1 !important;
+}
+
+.header-interne img{
+	display: block;
+  	max-width: 100%;
+  	height: auto;
+  	margin-top: 50px;
+}
+
+.contenu-interne{
+	padding-bottom: 40px;
+}
+
+.contenu-interne h1, .contenu-interne h2, .contenu-interne h3, .contenu-interne h4, .contenu-interne h5, .contenu-interne h6, .contenu-interne p{
+	padding-left: 20px;
+}
+
+.contenu-interne h1{
+	text-align: left;
+	text-transform: uppercase;
+	font-size:27px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #3F3A36;
+}
+
+.contenu-interne h2{
+	text-align: left;
+	text-transform: uppercase;
+	font-size:24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #0965AC;
+}
+
+.contenu-interne p{
+	padding-bottom: 10px;
+}
+
+.contenu-interne img{
+	display: inline-block;
+  	max-width: 100%;
+  	height: auto;
+  	padding-bottom: 2px;
+
+}
+
+.contenu-interne hr{
+	margin-left: 20px;
+}
+
+/*
+ ***************************************************************************************************
+ */
+
+
+/**
+ *
+ * 5 - REGLAGE DU TOGGLE
+ *
+ */
+
+ @media (max-width: 1200px) { 
+	.navbar-header {
+	float: none;
+	}
+	.navbar-toggle {
+	display: block;
+	}
+	.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-collapse.collapse {
+	display: none!important;
+	}
+	.navbar-nav {
+	float: none!important;
+	margin: 7.5px -15px;
+	}
+	.navbar-nav>li {
+	float: none;
+	}
+	.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.navbar-text {
+	float: none;
+	margin: 15px 0;
+	}
+	/* Classe a  ajouter pour une version de Bootstap >=  3.1.0 */
+	.navbar-collapse.collapse.in { 
+	display: block!important;
+	}
+	.collapsing {
+	overflow: hidden!important;
+	}
+}
+
+/*
+ ***************************************************************************************************
+ */
+
+
+/**
+ *
+ * 6- OFFRES EXCLUSIVES
+ *
+ */
+
+.offre-seminaire, .offre-mont, .offre-dior, .offre-anglo{
+  position:relative;
+  opacity:1.0;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  margin-top: 50px;
+}
+
+.offre-seminaire{
+  /* background-image: cf <style> header.php */
+  min-height: 400px;
+}
+
+.offre-mont{
+  /* background-image: cf <style> header.php */
+  min-height: 400px;
+}
+
+.offre-dior{
+  /* background-image: cf <style> header.php */
+  min-height: 400px;
+}
+
+.offre-anglo{
+  /* background-image: cf <style> header.php */
+  min-height: 400px;
+}
+
+.offre h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size:29px;
+    letter-spacing:8px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #3F3A36;
+}
+
+
+.offre h4{
+	text-align: center;
+	font-style: italic;
+	color:#838383;
+	padding-bottom: 20px;
+}
+
+.offre .bouton{
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px !important;
+	background-color: #777;
+	color: #ddd;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing:4px;
+}
+
+.offre .bouton:hover{
+	text-decoration: none;
+	background-color: #595859;
+}
+
+.offre .bouton.bas{
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.offre .chapeau{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	font-size: 18px;
+	color:#838383;
+}
+
+@media(min-width: 1000px){
+	.offre .chapeau{
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+}
+
+.bandes{
+	width: 100%;
+	color: #838383;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.bandes img{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.bandes h2{
+	font-size: 27px;
+	padding-bottom: 20px;
+	color: #595859;
+}
+
+.bande-light{
+	background-color: #F2F2F2;
+}
+
+.bande-dark{
+	background-color: #5D5C58;
+	color: #ddd;
+}
+
+.bande-dark h2{
+	color: #ddd;
+}
+
+@media (min-width: 992px){
+	.vertical-align {
+		    display: flex;
+		    align-items: center;
+	}
+}
+
+
+/*
+ ***************************************************************************************************
+ */
