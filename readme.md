@@ -1,5 +1,6 @@
 Template WP MEET'IN
 ===================
 
-*Auteur :* Claire Bourdalé
-*Date :* Juillet 2017
+**Auteur :** Claire Bourdalé
+
+**Date :** Juillet 2017
